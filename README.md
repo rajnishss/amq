@@ -10,6 +10,6 @@ sudo docker build -t activemq:5.9.0 -f .docker/amq.dockerfile .
 
 sudo docker run -p 8161:8161 -p 61616:61616 -t activemq:5.9.0
 
-#To run activemq in backgroup
+#To run activemq in background
 
 sudo docker run -p 8161:8161 -p 61616:61616 -t -d activemq:5.9.0
