@@ -29,10 +29,6 @@ RUN chmod +x /app/run.sh
 # Expose all port
 EXPOSE 8161
 EXPOSE 61616
-EXPOSE 5672
-EXPOSE 61613
-EXPOSE 1883
-EXPOSE 61614
 
 # Expose some folders
 VOLUME ["/data/activemq"]
