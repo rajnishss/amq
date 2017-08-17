@@ -3,6 +3,7 @@
 Current Version: **5.9.0**
 
 #To build docker activemq image
+
 sudo docker build -t activemq:5.9.0 -f .docker/amq.dockerfile .
 
 #To run activemq in interactive mode
